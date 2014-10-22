@@ -14,6 +14,8 @@
 		A88372A419F6880700348A2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A88372A319F6880700348A2D /* Images.xcassets */; };
 		A88372A719F6880700348A2D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A88372A519F6880700348A2D /* LaunchScreen.xib */; };
 		A88372B319F6880700348A2D /* AutoEmailAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A88372B219F6880700348A2D /* AutoEmailAppTests.m */; };
+		A88372C119F68AD100348A2D /* AutoEmailTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A88372C019F68AD100348A2D /* AutoEmailTextField.m */; };
+		A88372C419F69B2400348A2D /* AutoCompleteTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A88372C319F69B2400348A2D /* AutoCompleteTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		A88372AC19F6880700348A2D /* AutoEmailAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoEmailAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A88372B119F6880700348A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A88372B219F6880700348A2D /* AutoEmailAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoEmailAppTests.m; sourceTree = "<group>"; };
+		A88372BF19F68AD100348A2D /* AutoEmailTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoEmailTextField.h; sourceTree = "<group>"; };
+		A88372C019F68AD100348A2D /* AutoEmailTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoEmailTextField.m; sourceTree = "<group>"; };
+		A88372C219F69B2400348A2D /* AutoCompleteTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoCompleteTextField.h; sourceTree = "<group>"; };
+		A88372C319F69B2400348A2D /* AutoCompleteTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoCompleteTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,10 @@
 				A88372A319F6880700348A2D /* Images.xcassets */,
 				A88372A519F6880700348A2D /* LaunchScreen.xib */,
 				A883729619F6880700348A2D /* Supporting Files */,
+				A88372BF19F68AD100348A2D /* AutoEmailTextField.h */,
+				A88372C019F68AD100348A2D /* AutoEmailTextField.m */,
+				A88372C219F69B2400348A2D /* AutoCompleteTextField.h */,
+				A88372C319F69B2400348A2D /* AutoCompleteTextField.m */,
 			);
 			path = AutoEmailApp;
 			sourceTree = "<group>";
@@ -220,6 +230,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A883729F19F6880700348A2D /* ViewController.m in Sources */,
+				A88372C419F69B2400348A2D /* AutoCompleteTextField.m in Sources */,
+				A88372C119F68AD100348A2D /* AutoEmailTextField.m in Sources */,
 				A883729C19F6880700348A2D /* AppDelegate.m in Sources */,
 				A883729919F6880700348A2D /* main.m in Sources */,
 			);
@@ -412,6 +424,7 @@
 				A88372B819F6880700348A2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A88372B919F6880700348A2D /* Build configuration list for PBXNativeTarget "AutoEmailAppTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				A88372BB19F6880700348A2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
