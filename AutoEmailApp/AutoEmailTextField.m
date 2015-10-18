@@ -26,11 +26,12 @@
     }else {
         NSArray *array = [text componentsSeparatedByString:@"@"];
         text = [array objectAtIndex:0];
-        [self.contentSource addObject:[NSString stringWithFormat:@"%@@qq.com",text]];
+        [self.contentSource addObject:[NSString stringWithFormat:@"%@@hotmail.com",text]];
         [self.contentSource addObject:[NSString stringWithFormat:@"%@@gmail.com",text]];
         [self.contentSource addObject:[NSString stringWithFormat:@"%@@126.com",text]];
         [self.contentSource addObject:[NSString stringWithFormat:@"%@@163.com",text]];
-        [self.contentSource addObject:[NSString stringWithFormat:@"%@@hotmail.com",text]];
+        [self.contentSource addObject:[NSString stringWithFormat:@"%@@qq.com",text]];
+        
     }
 }
 
